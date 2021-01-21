@@ -15,7 +15,7 @@ function makeSrcset(imgSrc) {
         width+=400;
     }
 
-    return markup.join();
+    return markup.join(); //The join() method returns the array as a string.
 }
 
 for (let i = 0; i<IMAGES.length; i++) {
